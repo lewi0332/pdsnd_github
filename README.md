@@ -8,8 +8,12 @@ Explore regional bikeshare data
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+Washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I found inspiration for the divmod function here:
+https://stackoverflow.com/questions/4048651/python-function-to-convert-seconds-into-minutes-hours-and-days
+I found the to_string() here: 
+https://stackoverflow.com/questions/40278845/suppress-name-dtype-from-python-pandas-describe
