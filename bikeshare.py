@@ -8,9 +8,9 @@ Requires pandas0.23.0 or higher
 pip install -r requirements.txt
 """
 
-CITY_DATA = { 'chicago': '~/documents/flatiron/python_practice/chicago.csv',
-              'new york city': '~/documents/flatiron/python_practice/new_york_city.csv',
-              'washington': '~/documents/flatiron/python_practice/washington.csv' }
+CITY_DATA = { 'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+              'washington': 'washington.csv' }
 
 def get_filters():
     """
@@ -18,7 +18,7 @@ def get_filters():
 
     Returns:
         (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
+        (str) month - name of the qmonth to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print("\n\nHello! Let\'s explore some US bikeshare data!")
