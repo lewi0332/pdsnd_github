@@ -5,7 +5,8 @@
 Explore regional bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+This python script asks the user for input directly in the terminal which filters data from the chosen city before calculating some statistics. After presenting statistics from the filtered data, the script then asks the user if they would like to see the raw data with 5 lines per page. Finally the script asks the user if they would like to restart their seach.
+
 
 ### Files used
 chicago.csv
