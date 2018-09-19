@@ -29,13 +29,10 @@ def get_filters():
             city = input("\n\nWhich city would you like view: \n\n(C)hicago, (N)ew York or (W)ashington\n\n: ").lower().strip()
             if city == "chicago" or city == "c":
                 city = "chicago"
-                city_1 ="chicago"
             elif city == "new york" or city == "n":
                 city = "new york city"
-                city_1 = "new york city"
             elif city == 'washington' or city == "w":
                 city = 'washington'
-                city_1 = 'washington'
             else :
                 print("-"*40)
                 print("\nSorry, I didn't recognize that. \n\nI wish every city had bike share"
