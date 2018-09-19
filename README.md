@@ -1,8 +1,8 @@
 ### Date created
-Include the date you created this project and README file.
+2018-09-19
 
 ### Project Title
-Replace the Project Title
+Explore regional bikeshare data
 
 ### Description
 Describe what your project is about and what it does
